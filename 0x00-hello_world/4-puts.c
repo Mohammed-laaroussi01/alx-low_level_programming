@@ -1,13 +1,15 @@
 #include <stdio.h>
+
 /**
  *  main - principal function of the program
  *
- * description : it always returns the value 0
+ * description : this function always returns the value 0
  *
- *  return : program return value (0)
+ *  return : program return value 0 (Success)
  */
 int main(void)
 {
-puts("Programming is like building a multilingual puzzle");
+/* code of program */
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
