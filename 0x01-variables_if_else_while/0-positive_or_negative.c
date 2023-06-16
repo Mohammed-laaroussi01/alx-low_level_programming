@@ -7,8 +7,8 @@
  *
  * description:  checks if the number is positive, zero or negative
  *
- * return: Always 0 (success)
-*/
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
