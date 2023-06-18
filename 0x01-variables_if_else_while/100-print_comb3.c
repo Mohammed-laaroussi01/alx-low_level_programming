@@ -8,27 +8,25 @@
 
 int main(void)
 {
-	int digit1 = O, digit2;
+	int i = 0;
+	int j = 1;
 
-	while (digit <= 9)
+	while (i <= 9)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		while (j <= 9)
 		{
-			if (digit1 != digit2 && digit1 < digit2)
-			{
-				putchar(digit1 + 48);
-				putchar(digit2 + 48);
+			putchar(i + '0');
+				putchar(j + '0');
 
-				if (digit1 + digit2 != 17)
+				if (i != 8 || j != 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
-			}
-			digit2++;
+			j++;
 		}
-		digit1++;
+		i++;
+		j = i + 1;
 	}
 	putchar('\n');
 
