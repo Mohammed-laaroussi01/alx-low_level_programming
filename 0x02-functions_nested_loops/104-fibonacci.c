@@ -8,17 +8,17 @@
 int main(void)
 {
 	int count = 98;
-	double num1 = 1;
-	double num2 = 2;
-	double sum;
-	double i;
+	unsigned long int num1 = 1;
+	unsigned long int num2 = 2;
+	unsigned long int sum;
+	unsigned long int i;
 
-	printf("%.0lf, %.0lf, ", num1, num2);
+	printf("%lu, %lu, ", num1, num2);
 
 	for (i = 3; i <= count; i++)
 	{
 	sum = num1 + num2;
-	printf("%.0lf", sum);
+	printf("%lu", sum);
 
 	if (i < count)
 	{
