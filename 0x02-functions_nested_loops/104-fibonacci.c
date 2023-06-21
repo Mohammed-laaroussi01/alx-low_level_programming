@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int count = 98;
-	int num1 = 1;
-	int num2 = 2;
-	int sum;
-	int i;
+	 count = 98;
+	unsigned long long num1 = 1;
+	unsigned long long num2 = 2;
+	unsigned long long sum;
+	unsigned long long i;
 
 	printf("%d, %d, ", num1, num2);
 
