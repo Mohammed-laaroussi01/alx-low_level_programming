@@ -13,12 +13,12 @@ int main(void)
 	unsigned long long sum;
 	unsigned long long i;
 
-	printf("%d, %d, ", num1, num2);
+	printf("%llu, %llu, ", num1, num2);
 
 	for (i = 3; i <= count; i++)
 	{
 	sum = num1 + num2;
-	printf("%d", sum);
+	printf("%llu", sum);
 
 	if (i < count)
 	{
