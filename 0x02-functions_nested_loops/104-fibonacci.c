@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	 count = 98;
+	int count = 98;
 	unsigned long long num1 = 1;
 	unsigned long long num2 = 2;
 	unsigned long long sum;
