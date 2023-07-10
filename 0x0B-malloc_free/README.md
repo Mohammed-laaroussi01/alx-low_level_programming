@@ -1,0 +1,1 @@
+ funct malloc and free 
