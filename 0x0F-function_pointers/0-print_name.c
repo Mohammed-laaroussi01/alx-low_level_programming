@@ -7,11 +7,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	char *ptr = name;
 
-	while (*ptr != '\0')
-	{
-		ptr++;
-	}
+	if (!name || !f)
+		return;
 	f(name);
 }
